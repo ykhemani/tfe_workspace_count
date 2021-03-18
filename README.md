@@ -9,7 +9,7 @@ The [tfe_ws_count.sh](tfe_ws_count.sh) script leverages the [Organization](https
 Please set the following environment variables in order to run [tfe_ws_count.sh](tfe_ws_count.sh).
 
 * `TFE_ADDR` - Set to the TFC/TFE address. Defaults to `https://app.terraform.io` if not explicitly set.
-* `TFE_TOKEN` - Set to the TFC/TFE token for a user that has the ability to read access to all workspaces in each of your organizations in TFC/TFE.
+* `TFE_TOKEN` - Set to the TFC/TFE token for a user that has read access to all workspaces in each of your organizations in TFC/TFE.
 
 ## Usage
 
