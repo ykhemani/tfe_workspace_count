@@ -14,7 +14,7 @@ Please set the following environment variables in order to run [tfe_ws_count.sh]
 ## Usage
 
 ```
-TFE_TOKEN=<TFE_TOKEN> ./tfe_ws_count.sh
+TFE_TOKEN=<TFE_TOKEN> [TFE_ADDR=<TFE_ADDR>] ./tfe_ws_count.sh
 ```
 
 ## Example Output
