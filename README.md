@@ -1,6 +1,6 @@
 # TFE Workspace Counter
 
-The [tfe_ws_count.sh](tfe_ws_count.sh) script allows you to get a list and count of workspaces across your [Terraform Cloud and Terraform Enterprise](https://www.terraform.io/docs/cloud/index.html) (hereafter referred to as `TFC/TFE`) organizations.
+The [tfe_ws_count.sh](tfe_ws_count.sh) script allows you to get a list and count of workspaces across your [Terraform Cloud and Terraform Enterprise](https://www.terraform.io/docs/cloud/index.html) (`TFC/TFE`) organizations.
 
 The [tfe_ws_count.sh](tfe_ws_count.sh) script leverages the [Organization](https://www.terraform.io/docs/cloud/api/organizations.html#list-organizations) and [Workspace](https://www.terraform.io/docs/cloud/api/workspaces.html#list-workspaces) APIs for TFC/TFE.
 
@@ -9,7 +9,7 @@ The [tfe_ws_count.sh](tfe_ws_count.sh) script leverages the [Organization](https
 Please set the following environment variables in order to run [tfe_ws_count.sh](tfe_ws_count.sh).
 
 * `TFE_ADDR` - Set to the TFC/TFE address. Defaults to `https://app.terraform.io` if not explicitly set.
-* `TFE_TOKEN` - Set to the TFC/TFE token for a user that has read access to all workspaces in each of your organizations in TFC/TFE.
+* `TFE_TOKEN` - Set to the TFC/TFE token for a user who is a Site Admin or a members of the Owners team.
 
 ## Usage
 
